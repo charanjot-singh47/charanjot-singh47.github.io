@@ -1,0 +1,40 @@
+body{
+  background-color:lightcyan;
+  text-align: center;
+  font-family: 'Tiro Devanagari Hindi', 
+  serif;
+
+}
+
+h1{
+  font-size: 50pt;
+  margin-bottom: 135px;
+}
+
+p{
+  font-size: 20pt;
+  text-align: left;
+}
+
+.blue-text {
+  color: blue;
+}
+
+#name {
+  font-size: 25pt;
+  color: black;
+}
+
+a{
+  font-size: 20pt;
+  color: blue;
+  
+}
+
+a{
+  text-align: left;
+}
+
+p{
+  text-align: center;
+}
