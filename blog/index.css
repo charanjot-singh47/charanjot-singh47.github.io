@@ -6,12 +6,12 @@ body{
 
 }
 
-h1{
+.h1{
   font-size: 50pt;
   margin-bottom: 135px;
 }
 
-p{
+.p{
   font-size: 20pt;
   text-align: left;
 }
@@ -20,21 +20,46 @@ p{
   color: blue;
 }
 
-#name {
+.name {
   font-size: 25pt;
   color: black;
 }
 
-a{
+.a{
   font-size: 20pt;
   color: blue;
   
 }
 
-a{
+.a{
   text-align: left;
 }
 
-p{
+.p{
   text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+  body {
+    background: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: rgb(229, 219, 219);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background: rgba(242, 242, 98, 0.134);
+  }
+}
+
+
+/*Use media queries in a CSS 
+file to change the page layout
+ for mobile (320px), 
+ tablet (768px) 
+ and desktop (1200px+) screen sizes */
