@@ -6,33 +6,33 @@ body{
 
 }
 
-.h1{
+h1{
   font-size: 50pt;
   margin-bottom: 135px;
 }
 
-.p{
+p{
   font-size: 20pt;
-  text-align: left;
+  text-align: center;
 }
 
 .blue-text {
   color: blue;
 }
 
-.name {
+#name {
   font-size: 25pt;
   color: black;
 }
 
-.a{
+a{
   font-size: 20pt;
   color: blue;
   
 }
 
-.a{
-  text-align: left;
+a{
+  text-align: center;
 }
 
 .p{
